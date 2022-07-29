@@ -1,0 +1,4 @@
+*{margin:0; padding:0; box-sizing: border-box;}
+body {font-family: arial;background: #de8c8c0a; height: 100vh;}
+.form-group{display:inline-block;}
+input[type='text']{width: 100%;padding: 5px 8px;border-radius: 3px;border: 1px solid #ccc; min-width: 200px;}
