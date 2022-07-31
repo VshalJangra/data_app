@@ -91,16 +91,32 @@ header .container {
 .btn {
   display: inline-block;
   padding: 0.7rem 1rem;
-  color: #fff ;
+  color: rgb(4, 0, 0) ;
   background-color: rgb(6, 166, 220);
   border-radius: 50px;
   text-transform: capitalize;
   transition: 0.3s;
 }
 
+.btn-login{
+  display: inline-block;
+  padding: 0.7rem 1rem;
+  color: rgb(4, 0, 0) ;
+  background-color: rgb(6, 166, 220);
+  border-radius: 50px;
+  text-transform: capitalize;
+  transition: 0.3s;
+}
+
+.btn-login:hover{
+  background-color: white;
+  transform: scale(1) ;
+}
+
 .btn:hover {
   background-color: white;
   transform: scale(1) ;
+  
 }
 
 
@@ -132,8 +148,8 @@ header .container {
 
 .person {
   width: 50%;
-  transform: translate(100%, 40px);
-  border-radius: 40px;
+  transform: translate(100%, 50px);
+  border-radius: 50px;
 }
 
 
