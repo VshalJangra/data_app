@@ -1,117 +1,112 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
+<html>
+<head>
+  <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>DataAce</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
 
-    <main>
+  <title>DataAce</title>
+  <link rel="stylesheet" type="text/css" href="./style.css" />
+  
+ 
+</head>
+<body>
+
+  
+  <main>
       <div class="big-wrapper light">
         
-        <img src="./images/shape.png" class="shape" />
-
         <header>
           <div class="container">
             <div class="logo">
-              <img src="./icons/free-logo.jpg" alt="Logo" />
-              <h3>DataAce</h3>
+              
+              <p>DataAce</p>
             </div>
-
             
-
             <div class="links">
               <ul>
-                <li><a href="#features" class="btn">Team</a></li>
+                <li><a href="#team" class="btn">About Our Team</a></li>
               </ul>
             </div>
         </header>
-
-        
-
-        <div class="showcase-area">
-          <div class="container">
-            <div class="left">
-              <div class="big-title">
-                <h1>Future is here,</h1>
-                <h1>Start Exploring now.</h1>
-              </div>
-              <p class="text">
-                Data is information that has been transllated into a form that is efficient for processing.
-                Today's Computers are capable of doing high level computing!
-              </p>
-            
-              
-
-          <li><a href="login.html" class="btn-login">Sign up</a></li>
-
-            </div>
-
-            
-
-            <div class="right">
-              <img src="./images/hover.jpg" alt="Person Image" class="person" />
-            </div>
-          </div>
-        </div>
-
-        <div class="bottom-area">
-            <div class="container">
-              
-            </div>
-
-        </div>
-      </div>
-
-      <div class="features" id="features">
-        <h1 class="heading">About Our Team</h1>
-
-      <div class="box-container">
-
-        <div class="box">
-            <img src="./icons/girl1.png" class="pic">
-            <h3>Isha</h3>
-            <p>About Member</p>
-        </div>
-
-        <div class="box">
-            <img src="./icons/boy.png" class="pic">
-            <h3>Vishal</h3>
-            <p>About Member</p>
-        </div>
-
-        <div class="box">
-            <img src="./icons/girl1.png" class="pic">
-            <h3>Vanshika</h3>
-            <p>About Member</p>
-        </div>
-
-        <div class="box">
-            <img src="./icons/boy.png" class="pic">
-            <h3>Shubhansh</h3>
-            <p>About Member</p>
-        </div>
-
-    </div>
-      </div>
-
-
-    <div class="footer">
     
-    <h1 class="credit"> &copy; copyright @ 2022</h1>
 
+  <div class="showcase-area">
+    <div class="container">
+      <div class="left">
+        <div class="big-title">
+          <p>Future is here,
+            Start Exploring now.
+          </p>
+         
+        </div>
+        <p class="text">
+          Data is information that has been transllated into a form that is efficient for processing.
+          Today's Computers are capable of doing high level computing!
+        </p>
+      
+      <button id="btn-login" disabled="true" class="ui primary button" onclick="login()">Login</button>
+      <button id="btn-logout" disabled="true" class="ui primary button" onclick="logout()">Logout</button>
+    
+      </div>
+
+      <div class="right">
+        <img src="./images/hover.jpg" alt="Person Image" class="person" />
+      </div>
+    </div>
+  </div>
+ 
+
+  <div class="bottom-area">
+    <div class="container">
+      
     </div>
 
+</div>
+</div>
+
+<div class="team" id="team">
+<h1 class="heading">About Our Team</h1>
+
+<div class="box-container">
 
 
-    </main>
 
-    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
-    <script src="./app.js"></script>
+<div class="box">
+    <img src="./icons/boy.png" class="pic">
+    <h3>Vishal</h3>
+    <p>About Member</p>
+</div>
 
-  </body>
+<div class="box">
+    <img src="./icons/girl1.png" class="pic">
+    <h3>Vanshika</h3>
+    <p>About Member</p>
+</div>
+
+<div class="box">
+    <img src="./icons/boy.png" class="pic">
+    <h3>Shubhansh</h3>
+    <p>About Member</p>
+</div>
+
+</div>
+</div>
+
+
+<div class="footer">
+
+<h1 class="credit"> &copy; copyright @ 2022</h1>
+
+</div>
+
+</main>
+
+<script src="https://kit.fontawesome.com/a81368914c.js"></script>
+
+<script src="https://cdn.auth0.com/js/auth0-spa-js/1.20/auth0-spa-js.production.js"></script>
+<script src="./js/auth0.js"></script>
+</body>
 </html>
