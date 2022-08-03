@@ -21,9 +21,6 @@ a {
   text-decoration: none;
 }
 
-.hidden {
-  display: none;
-}
 
 .big-wrapper {
   position: relative;
@@ -72,13 +69,6 @@ header .container {
   animation: shine 2s infinite;
 }
 
-
-.links ul {
-  display: flex;
-  list-style: none;
-  align-items: center;
-}
-
 .links a {
   color: rgb(255, 255, 255);
   margin-left: 4.5rem;
@@ -90,54 +80,6 @@ header .container {
   color: black;
   transform: scale(1.05);
 }
-
-.btn {
-  display: inline-block;
-  padding: 0.7rem 1rem;
-  color: rgb(4, 0, 0) ;
-  background-color: rgb(6, 166, 220);
-  border-radius: 50px;
-  text-transform: capitalize;
-  transition: 0.3s;
-}
-
-.btn-login{
-  display: inline-block;
-  padding: 0.7rem 1rem;
-  color: rgb(4, 0, 0) ;
-  background-color: rgb(6, 166, 220);
-  border-radius: 50px;
-  text-transform: capitalize;
-  transition: 0.3s;
-}
-
-.btn-table{
-  display: inline-block;
-  padding: 0.7rem 1rem;
-  color: rgb(4, 0, 0) ;
-  background-color: rgb(6, 166, 220);
-  border-radius: 50px;
-  text-transform: capitalize;
-  transition: 0.3s;
-}
-
-.btn-table:hover{
-  background-color: white;
-  transform: scale(1) ;
-}
-
-
-.btn-login:hover{
-  background-color: white;
-  transform: scale(1) ;
-}
-
-.btn:hover {
-  background-color: white;
-  transform: scale(1) ;
-  
-}
-
 
 .showcase-area .container {
   display: grid;
@@ -174,22 +116,6 @@ header .container {
   height: 500px;
 }
 
-.shape {
-  position: absolute;
-  z-index: 0;
-  width: 500px;
-  bottom: -180px;
-  left: -15px;
-  opacity: 0.1;
-}
-
-.copy {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 100;
-  animation: appear 1s 1 both;
-}
 
 .heading{
   text-align: center;
@@ -251,8 +177,8 @@ header .container {
 }
 
 .team .box-container .box .pic{
-  height: 30%;
-  width: 30%;
+  height: 25%;
+  width: 10%;
 }
 
 .footer .credit{
@@ -300,14 +226,10 @@ header .container {
     background: black;
   }
 
-  
-
   .big-wrapper.active .links {
     transform: translateX(0);
     box-shadow: 0 0 50px 2px rgba(0, 0, 0, 0.4);
   }
-
-
 
   .showcase-area {
     padding: 2.5rem 0;
@@ -337,11 +259,6 @@ header .container {
 
   .logo h3 {
     font-size: 1.25rem;
-  }
-
-  .shape {
-    bottom: -180px;
-    left: -150px;
   }
 }
 
